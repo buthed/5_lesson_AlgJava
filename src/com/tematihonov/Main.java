@@ -70,8 +70,9 @@ public class Main {
         System.out.println();
 
         System.out.println("Task 5.6");
+        System.out.println("Сортировка слиянием ");
         System.out.println("Задан массив: " + Arrays.toString(mArrayCopy));
-        System.out.println(Arrays.toString(sortMerge(mArrayCopy)));
+        System.out.println("Отсортированный массив: " + Arrays.toString(sortMerge(mArrayCopy)));
     }
 
 
